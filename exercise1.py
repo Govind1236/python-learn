@@ -1,9 +1,11 @@
 import time
-name = input("Enter Your Name: ")
-timestamp = time.strftime("%I:%M")
-print(name)
+user_name = input("Enter Your Name: ")
+timestamp = time.strftime("%H:%M:S")
+hour = int(time.strftime("%M"))
 print(timestamp)
-if(timestamp == 0):
-    print("Good morning")
-elif(timestamp < 0 and timestamp > 10):
-    print("Welcome")
+print(user_name)
+if hour < 10:
+    print("Good moring!!", user_name)
+else:
+    print("Good Afternoon!!", user_name)
+
