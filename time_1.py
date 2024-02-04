@@ -1,3 +1,3 @@
 import time
-timestamp = time.timestap('%H, %S')
+timestamp = time.strftime('%I : %M')
 print(timestamp)
