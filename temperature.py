@@ -6,5 +6,3 @@ elif temperature_tmp > 32 or  temperature_tmp <= 212:
     print ("Freezing to boiling")
 else:
     print ("Boiling and Above")
-
-    
