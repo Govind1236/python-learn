@@ -19,4 +19,4 @@ Make sure you have Python installed on your system. You can download Python from
 3. Run the script by executing the following command:
 
    ```bash
-   python login_script.py
+   python user-login-verify.py
